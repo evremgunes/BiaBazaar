@@ -1,0 +1,2525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/devextreme/22.1.6/css/dx.carmine.compact.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/devexpress-diagram/2.1.65/dx-diagram.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/devexpress-gantt/4.1.33/dx-gantt.min.css" rel="stylesheet">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>BiaBazaar|Araba Parça Satış</title>
+</head>
+<body class="bodyz">
+    <nav class="navbar navbar-expand-lg">
+        <div id="wrapper">
+            <div class="overlay"></div>
+                 <!-- Sidebar -->
+             <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+              <ul class="nav sidebar-nav">
+                <div class="sidebar-header">
+                <div class="sidebar-brand">
+                  <a href="#">BiaBazaar</a></div></div>
+                  <a href="#" onclick="document.getElementById('id01').style.display='block'"><i class='bx bx-log-in-circle'></i>Giriş Yap </a>
+                  <a href="#" onclick="document.getElementById('id02').style.display='block'"><i class='bx bx-user-plus'></i>| Üye Ol </a>
+                  <a href="#"><i class='bx bx-car'></i>| Aracım</a>
+                <li><a href="#">Anasayfa</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Fren Sistemleri <span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Fren Sistemleri</div>
+                   <li><a href="#">Fren Balataları</a></li>
+                   <li><a href="#">Fren Diskleri</a></li>
+                   <li><a href="#">Fren Kaliperi</a></li>
+                   <li><a href="#">Fren Hortumu</a></li>
+                   <li><a href="#">Fren Balatası Aşınma Sensörü</a></li>
+                   <li><a href="#">Fren Kaliperi Tamir Kiti</a></li>
+                   <li><a href="#">Fren Hidroliği</a></li>
+                   <li><a href="#">Fren Pabucu</a></li>
+                   <li><a href="#">ABS Sensörü</a></li>
+                   <li><a href="#">Fren Kiti</a></li>
+                   <li><a href="#">El Freni Kiti</a></li>
+                   <li><a href="#">Fren Pabucu Montaj Seti</a></li>
+                   <li><a href="#">Fren Kaliperi Cıvatası</a></li>
+                   <li><a href="#">Tekerlek Silindiri</a></li>
+                   <li><a href="#">Fren Diski Arka Plakası</a></li>
+                   <li><a href="#">El Freni Pabuçları</a></li>
+                   <li><a href="#">Kampana Fren</a></li>
+                   <li><a href="#">Fren Kampanası</a></li>
+                   <li><a href="#">Fren Ana Silindiri</a></li>
+                   <li><a href="#">Fren Lambası Şalteri</a></li>
+                   <li><a href="#">El Freni</a></li>
+                   <li><a href="#">Relüktor Halkası</a></li>
+                   <li><a href="#">Fren Kaliper Desteği</a></li>
+                   <li><a href="#">Fren Kaliper Pistonu</a></li>
+                   <li><a href="#">Fren Vakum Pompası</a></li>
+                   <li><a href="#">Fren Borusu</a></li>
+                   <li><a href="#">Fren Servosu</a></li>
+                   <li><a href="#">Fren Güç Regülatörü</a></li>
+                   <li><a href="#">Fren Hidroliği Deposu</a></li>
+                   <li><a href="#">ABS Pompası</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Filtreler <span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Filtreler</div>
+                   <li><a href="#">Yağ Filtresi</a></li>
+                   <li><a href="#">Hava Filtresi</a></li>
+                   <li><a href="#">Polen Filtresi</a></li>
+                   <li><a href="#">Yakıt Filtresi</a></li>
+                   <li><a href="#">Spor Hava Filtresi</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Motor <span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Motor</div>
+                   <li><a href="#">Motor Yağı</a></li>
+                   <li><a href="#">Motor Takozu</a></li>
+                   <li><a href="#">Yağ Tahliye Tıpası</a></li>
+                   <li><a href="#">Silindir Başlı Tıpalar</a></li>
+                   <li><a href="#">Yağ Çubuğu</a></li>
+                   <li><a href="#">Karter Havalandırma</a></li>
+                   <li><a href="#">Yağ Karteri</a></li>
+                   <li><a href="#">Yağ Doldurma Kapağı</a></li>
+                   <li><a href="#">İtici Supap</a></li>
+                   <li><a href="#">Piston Halkaları</a></li>
+                   <li><a href="#">Yağ Seviye Sensörü</a></li>
+                   <li><a href="#">Karter Conta Seti</a></li>
+                   <li><a href="#">Egzoz Vanası</a></li>
+                   <li><a href="#">Conta Takımı</a></li>
+                   <li><a href="#">Eksantrik mili</a></li>
+                   <li><a href="#">Yağ Pompası</a></li>
+                   <li><a href="#">Giriş Valfleri</a></li>
+                   <li><a href="#">Krank Mil Yatağı</a></li>
+                   <li><a href="#">Külbütör</a></li>
+                   <li><a href="#">Tam Motor Conta Seti</a></li>
+                   <li><a href="#">Montaj Kiti Şarj Cihazı</a></li>
+                   <li><a href="#">Piston</a></li>
+                   <li><a href="#">Emme Manifoldu</a></li>
+                   <li><a href="#">Triger Kayış Kapağı</a></li>
+                   <li><a href="#">Rocker Kapağı</a></li>
+                   <li><a href="#">Silindir Kafası</a></li>
+                   <li><a href="#">İkincil Hava Pompası</a></li>
+                   <li><a href="#">Motor Bloğu</a></li>
+                   <li><a href="#">Krank Mili</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Gövde<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Gövde</div>
+                   <li><a href="#">Bagaj Kapağı Payandaları</a></li>
+                   <li><a href="#">Kanat Aynaları</a></li>
+                   <li><a href="#">Arka Lambalar</a></li>
+                   <li><a href="#">Kanat Aynası Camı</a></li>
+                   <li><a href="#">Farlar</a></li>
+                   <li><a href="#">Yan Göstergeler</a></li>
+                   <li><a href="#">Tekerlek Kemer Astarı</a></li>
+                   <li><a href="#">Sis Farları</a></li>
+                   <li><a href="#">Tampon Izgarası</a></li>
+                   <li><a href="#">Plaka Lambası</a></li>
+                   <li><a href="#">Kapı Kolu</a></li>
+                   <li><a href="#">Tampon</a></li>
+                   <li><a href="#">Radyatör Izgarası</a></li>
+                   <li><a href="#">Kaput Payandaları</a></li>
+                   <li><a href="#">Kanat</a></li>
+                   <li><a href="#">Kanat Ayna Kapakları</a></li>
+                   <li><a href="#">Tampon Destekleri</a></li>
+                   <li><a href="#">Kapı Parçaları</a></li>
+                   <li><a href="#">Motor Kapağı</a></li>
+                   <li><a href="#">Üçüncü Fren Lambası</a></li>
+                   <li><a href="#">Radyatör Destek Paneli</a></li>
+                   <li><a href="#">Tampon Takviyesi</a></li>
+                   <li><a href="#">Rocker Paneli</a></li>
+                   <li><a href="#">Arka Reflektör</a></li>
+                   <li><a href="#">Arka Sis Işığı</a></li>
+                   <li><a href="#">Merkezi Kilit Sistemi</a></li>
+                   <li><a href="#">Bagaj Kilidi</a></li>
+                   <li><a href="#">Ön Rüzgarlık</a></li>
+                   <li><a href="#">Motor Sıçrama Kalkanı</a></li>
+                   <li><a href="#">Pozisyon Işığı</a></li>
+                   <li><a href="#">Çamurluk Fişekleri</a></li>
+                   <li><a href="#">Gündüz Farları</a></li>
+                   <li><a href="#">Tekerlek Kemeri</a></li>
+                   <li><a href="#">Bagaj Kapısı</a></li>
+                   <li><a href="#">Pencere Contası</a></li>
+                   <li><a href="#">Far Merceği</a></li>
+                   <li><a href="#">Kapı Contası</a></li>
+                   <li><a href="#">Ters Işık</a></li>
+                   <li><a href="#">Radyatör Amblemi</a></li>
+                   <li><a href="#">Stop Işığı</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Süspansiyon<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Süspansiyon</div>
+                   <li><a href="#">Tekerlek Yatağı</a></li>
+                   <li><a href="#">Anti Roll Bar Bağlantıları</a></li>
+                   <li><a href="#">Kumanda Kolu</a></li>
+                   <li><a href="#">Süspansiyon Bilyalı Mafsal</a></li>
+                   <li><a href="#">Süspansiyon Kolu</a></li>
+                   <li><a href="#">Anti Roll Bar Kolu</a></li>
+                   <li><a href="#">Tekerlek Cıvatası</a></li>
+                   <li><a href="#">Tekerlek Göbeği</a></li>
+                   <li><a href="#">Kumanda Kolu Tamir Kiti</a></li>
+                   <li><a href="#">Aks Kolu</a></li>
+                   <li><a href="#">Tekerlek Ara Parçaları</a></li>
+                   <li><a href="#">Direksiyon Mafsalı</a></li>
+                   <li><a href="#">Anti Roll Bar</a></li>
+                   <li><a href="#">Bijon Somunları</a></li>
+                   <li><a href="#">Diferansiyel</a></li>
+                   <li><a href="#">Kiriş Aksı</a></li>
+                   
+    
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Damping <span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Dropdown heading</div>
+                   <li><a href="#">Amortisör</a></li>
+                   <li><a href="#">Payanda</a></li>
+                   <li><a href="#">Helezon Yaylar</a></li>
+                   <li><a href="#">Amortisör Toz Kapağı ve Çarpma Durdurucular</a></li>
+                   <li><a href="#">Yay Takımı</a></li>
+                   <li><a href="#">Yay Kapağı</a></li>
+                   <li><a href="#">Yaprak Yay</a></li>
+                   <li><a href="#">Hava Süspansiyonu</a></li>
+                   <li><a href="#">Süspansiyon Kiti</a></li>
+                   <li><a href="#">Süspansiyon Akümülatörü</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Kayış/Zincir<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Kayış/Zincir</div>
+                   <li><a href="#">V Nervürlü Kemer</a></li>
+                   <li><a href="#">Su Pompası + Triger Kayış Seti</a></li>
+                   <li><a href="#">Triger Kayış Seti</a></li>
+                   <li><a href="#">Poly V Kayış Kiti</a></li>
+                   <li><a href="#">Gergi Makarası</a></li>
+                   <li><a href="#">Kam Kayışı</a></li>
+                   <li><a href="#">V-Kayışı</a></li>
+                   <li><a href="#">Tahrik Kayışı Gergisi</a></li>
+                   <li><a href="#">Kılavuz Makara</a></li>
+                   <li><a href="#">Zamanlama Zincir Kiti</a></li>
+                   <li><a href="#">Zamanlama Zinciri</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Cam Temizleme Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Cam Temizleme Sistemi</div>
+                   <li><a href="#">Cam Silecekleri</a></li>
+                   <li><a href="#">Ön Cam Silecek Kolu</a></li>
+                   <li><a href="#">Ön Cam Yıkama Pompası</a></li>
+                   <li><a href="#">Silecek Motoru</a></li>
+                   <li><a href="#">Silecek Bağlantısı</a></li>
+                   <li><a href="#">Ön Cam Yıkama Jetleri</a></li>
+                   <li><a href="#">Ön Cam Yıkama Haznesi</a></li>
+                   <li><a href="#">Silecek Lastiği</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Ateşleme/Ön Isıtma<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Motor Soğutma Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Egzoz Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Direksiyon<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Konfor/İç Mekan<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Tekerlekten Çekiş<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Debriyaj<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Sensörler<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Contalar/Sızdırmazlık Halkaları<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Yakıt Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Vites<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Elektrik Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Boru ve Hortumlar<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Klima Sistemi<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Isıtma ve Havalandırma<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Kayış Kasnakları ve Dişliler<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Ampuller<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown">Role<span class="caret"></span></a>
+                  <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <div class="dropdown-header">Ateşleme/Ön Isıtma</div>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   <li><a href="#">a</a></li>
+                   </ul>
+                   </li>
+                <li><a href="#">Motor Yağı</a></li>
+                <li><a href="#">Akü</a></li>
+                <li><a href="#">Araba Aksesuarları</a></li>
+                <li><a href="#">Araç Bakımı</a></li>
+                <li><a href="#">Aletler</a></li>
+                <li><a href="#">Lastikler</a></li>
+                <li><a href="#">Araba Markaları</a></li>
+                <li><a href="#">Üreticiler</a></li>
+                <li class="dropdown">
+                <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Araban İçin Yedek Parçalar <span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+               <div class="dropdown-header">Dropdown heading</div>
+               <li><a href="#">Aracına Uygun En İyi Parçalar</a></li>
+               <li><a href="#">Popüler Arabalar için Yedek Parça Seçimi</a></li>
+               </ul>
+               </li>
+               <li class="dropdown">
+                <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Bilgi <span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+               <div class="dropdown-header">Dropdown heading</div>
+               <li><a href="#">İletişim</a></li>
+               <li><a href="#">Şart ve Koşullar</a></li>
+               <li><a href="#">Gizlilik Politikası</a></li>
+               <li><a href="#">Şirket Bilgileri</a></li>
+               <li><a href="#">Ödeme</a></li>
+               <li><a href="#">Kargo</a></li>
+               <li><a href="#">İade Hakkında</a></li>
+               <li><a href="#">İletişim</a></li>
+               </ul>
+               </li>
+               </ul>
+           </nav>
+                 <!-- /#sidebar-wrapper -->
+                 <!-- Page Content -->
+                 <div id="page-content-wrapper">
+                     <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                         <span class="hamb-top"></span>
+                         <span class="hamb-middle"></span>
+                         <span class="hamb-bottom"></span>
+                     </button>
+                </div>
+            <!-- /#page-content-wrapper -->
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"></i>BiaBazaar</a>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Marka/parça numarası/ismi giriniz" aria-label="Search">
+            <a href="#" type="submit" class="btn btn-sm animated-button thar-three">Ara</a>
+          </form>
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class='bx bxs-home'></i> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class='bx bxs-basket'></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.getElementById('id01').style.display='block'" style="width: auto;"><i class='bx bxs-user'></i></a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+<div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="img/img_avatar3.png" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Email adresinizi giriniz" name="uname" required>
+    
+          <label for="psw"><b>Şifre</b></label>
+          <input type="password" placeholder="Şifrenizi giriniz" name="psw" required>
+            
+          <button type="submit">Giriş</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Beni Hatırla
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">İptal</button>
+          <span class="psw"><a href="#">Şifremi Unuttum?</a></span>
+        </div>
+      </form>
+</div>
+<div id="id02" class="modal">
+
+    <form class="modal-content" action="/action_page.php">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="container">
+        <h1>Üye Ol</h1>
+        <p>Lütfen kayıt formunu eksiksiz doldurun.</p>
+        <hr>
+        <label for="email"><b>Email adresiniz</b></label>
+        <input type="text" placeholder="Email giriniz" name="email" required>
+  
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifre giriniz" name="psw" required>
+  
+        <label for="psw-repeat"><b>Şifre Tekrar</b></label>
+        <input type="password" placeholder="şifreyi tekrar giriniz" name="psw-repeat" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Beni Hatırla
+        </label>
+  
+        <p>Hesap oluşturduğunuzda şunları kabul etmiş olursunuz <a href="#" style="color:dodgerblue">Şartlar & Gizlilik</a>.</p>
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">İptal</button>
+          <button type="submit" class="signupbtn">Kaydol</button>
+        </div>
+      </div>
+    </form>
+  </div>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+ <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>*/ -->
+    <ul class="slick-slider">
+        <li><div class="catalog-grid-item undefined">
+            <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                <div class="catalog-grid-item__image">
+                    <img alt="Fren Sistemleri: ucuz araba parçaları" class=" lazyloaded" src="img/kategoriFrenSis.png">
+                </div>
+                <div class="catalog-grid-item__name" data-catalog-item-name="">
+                    <span class="text">Fren Sistemleri</span>
+                </div>
+            </span>
+        </div></li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Filtreler: ucuz araba parçaları" class=" lazyloaded" src="img/kategoriFiltre.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Filtreler</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Motor: ucuz araba parçaları" class=" lazyloaded" src="img/kategoriMotor.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Motor</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Gövde: ucuz araba parçaları" class=" lazyloaded" src="img/kategoriGovde.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Gövde</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined" >
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Salıncak: araba parçaları online mağazada" class=" lazyloaded"  src="img/kategoriSalincak.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Salıncak</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Süspansiyon: araba parçaları online mağazada" class=" lazyloaded" src="img/kategoriSuspansiyon.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Süspansiyon</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Kayış: ucuz araba parçaları" class=" lazyloaded" src="img/kategoriKayisZincir.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Kayış</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Cam Temizleme Sistemi: araba parçaları online mağazada" class=" lazyloaded" src="img/kategoriCamTemizlemeSis.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Cam Temizleme Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined" >
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Buji/ Ateşleme Bobini: Sıfır ve İkinci El Araba Parçaları" class=" lazyloaded" src="img/kategoriBuji.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Buji/ Ateşleme Bobini</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Motor Soğutma Sistemi: Sıfır ve İkinci El Araba Parçaları" class=" lazyloaded" src="img/kategoriMotorSogutmaSis.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Motor Soğutma Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Egzoz Sistemi: Sıfır ve İkinci El Araba Parçaları" class=" lazyloaded" src="img/kategoriEgzozSis.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Egzoz Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Rod Bağlantıları: Sıfır ve İkinci El Araba Parçaları" class=" lazyloaded" src="img/kategoriDireksiyon.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Rod Bağlantıları</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Konfor/İç Aksam: araba parçalarını çevrimiçi olarak uygun fiyata satın alın" class="lazyload" src="img/kategoriKonforIcMekan.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Konfor/ İç Aksam</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" ddata-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="rod Kolu: araba parçalarını çevrimiçi olarak uygun fiyata satın alın" class="lazyload" src="img/kategoriRodKolu.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Rod Kolu</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Debriyaj: araba parçalarını çevrimiçi olarak uygun fiyata satın alın" class="lazyload" src="img/kategoriDebriyaj.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Debriyaj</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Araç Sensörleri: araba parçalarını çevrimiçi olarak uygun fiyata satın alın" class="lazyload"  src="img/kategoriSensorler.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Araç Sensörleri</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined" >
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Conta ve Sızdırmazlık Halkaları: yeni ve kullanılmış araba parçaları ucuz bir şekilde" class="lazyload"  src="img/KategoriContaSizdirmazlik.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Conta ve Sızdırmazlık Halkaları</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Yakıt Sistemi: yeni ve kullanılmış araba parçaları ucuz bir şekilde" class="lazyload"  src="img/kategoriYakitSistemi.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Yakıt Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Şanzıman: yeni ve kullanılmış araba parçaları ucuz bir şekilde" class="lazyload"  src="img/kategoriSanziman.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Şanzıman</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined" >
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Elektrik Sistemi: yeni ve kullanılmış araba parçaları ucuz bir şekilde" class="lazyload"  src="img/kategoriElektrikSis.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Elektrik Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Borular ve Hortumlar: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload" src="img/kategoriBoruHortum.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Borular ve Hortumlar</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Soğutma Sistemleri: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload"  src="img/kategoriSogutmaSis.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Soğutma Sistemleri</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Isıtma ve Havalandırma Sistemi: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload" src="img/kategoriIsitmaHavala.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Isıtma ve Havalandırma Sistemi</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Kayış Kasnak &amp; Dişli: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload"  src="img/kategorikayisKasnakDisli.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Kayış Kasnak &amp; Dişli</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Ampuller: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload"  src="img/kategoriAmpul.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Ampuller</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-grid-item undefined">
+                <span class="catalog-grid-item__link" data-link="https://www.biabazaar.com">
+                    <div class="catalog-grid-item__image">
+                        <img alt="Role: yeni ve ikinci el otomobil parçaları web sitesi" class="lazyload"  src="img/kategoriRole.png">
+                    </div>
+                    <div class="catalog-grid-item__name" data-catalog-item-name="">
+                        <span class="text">Role</span>
+                    </div>
+                </span>
+            </div>
+        </li>
+    </ul>
+    <div class="arac">
+        <div class="Marka">
+            <div class="dx-field">
+                <h3>Marka</h3>
+              <div class="dx-field-value">
+                <div id="searchBox"></div>
+              </div>
+            </div>
+<!--             <select name="marka" id="marka" onchange="populate(this.id,'model')">
+                <option selected hidden>Marka Seçiniz</option>
+               <option value="alfa">Alfa Romeo</option>
+                <option value="aston">Aston Martin</option>
+                <option value="audi">Audi</option>
+                <option value="bentley">Bentley</option>
+                <option value="bmw">BMW</option>
+                <option value="cadillac">Cadillac</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="chrysler">Chrysler</option>
+                <option value="citroen">Citroen</option>
+                <option value="dacia">Dacia</option>
+                <option value="daewoo">Daewoo</option>
+                <option value="daihatsu">Daihatsu</option>
+                <option value="dodge">Dodge</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="fiat">Fiat</option>
+                <option value="ford">Ford</option>
+                <option value="honda">Honda</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="isuzu">ISUZU</option>
+                <option value="iveco">Iveco</option>
+                <option value="jaguar">Jaguar</option>
+                <option value="jeep">Jeep</option>
+                <option value="kia">Kia</option>
+                <option value="lada">Lada</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="lancia">Lancia</option>
+                <option value="landrover">Land Rover</option>
+                <option value="maserati">Maserati</option>
+                <option value="mazda">Mazda</option>
+                <option value="mercedesbenz">Mercedes Benz</option>
+                <option value="mini">Mini</option>
+                <option value="mitsubishi">Mitsubishi</option>
+                <option value="nissan">Nissan</option>
+                <option value="opel">Opel</option>
+                <option value="peugeot">Peugeot</option>
+                <option value="porsche">Porsche</option>
+                <option value="renault">Renault</option>
+                <option value="renaulttrucks">Renault Trucks</option>
+                <option value="rollsroyce">Rolls Royce</option>
+                <option value="rover">Rover</option>
+                <option value="seat">Seat</option>
+                <option value="skoda">Skoda</option>
+                <option value="smart">Smart</option>
+                <option value="subaru">Subaru</option>
+                <option value="suzuki">Suzuki</option>
+                <option value="tata">Tata</option>
+                <option value="tofas">Tofas</option>
+                <option value="toyota">Toyota</option>
+                <option value="volvo">Volvo</option>
+                <option value="vw">VW</option>
+           </select> -->
+        </div>
+        <div class="Model">
+            <h3>Model</h3>
+            <select name="model" id="model">
+                <option value="0">Model</option>
+            <optgroup label="ALFA ROMEO">
+                <option value="alfa">6</option>
+                <option value="alfa">33</option>
+                <option value="alfa">75</option>
+                <option value="alfa">90</option>
+                <option value="alfa">145</option>
+                <option value="alfa">146</option>
+                <option value="alfa">147</option>
+                <option value="alfa">156</option>
+                <option value="alfa">159</option>
+                <option value="alfa">164</option>
+                <option value="alfa">166</option>
+                <option value="alfa">2300</option>
+                <option value="alfa">156 Sportwagon</option>
+                <option value="alfa">1750 2000</option>
+                <option value="alfa">4C</option>
+                <option value="alfa">4C Spider</option>
+                <option value="alfa">alfasud</option>
+                <option value="alfa">alfetta</option>
+                <option value="alfa">ar 6</option>
+                <option value="alfa">arna</option>
+                <option value="alfa">brera</option>
+                <option value="alfa">giulietta</option>
+                <option value="alfa">gt</option>
+                <option value="alfa">gta coupe</option>
+                <option value="alfa">gtv</option>
+                <option value="alfa">mito</option>
+                <option value="alfa">montreal</option>
+                <option value="alfa">rz</option>
+                <option value="alfa">spider</option>
+                <option value="alfa">sz</option>
+            </optgroup>
+            <optgroup label="aston">
+                <option value="aston">lagonda</option>
+            </optgroup>
+            <optgroup label="audi">
+                <option value="audi">50</option>
+                <option value="audi">60</option>
+                <option value="audi">75</option>
+                <option value="audi">80</option>
+                <option value="audi">90</option>
+                <option value="audi">100</option>
+                <option value="audi">200</option>
+                <option value="audi">A1</option>
+                <option value="audi">A2</option>
+                <option value="audi">A3</option>
+                <option value="audi">A4</option>
+                <option value="audi">A5</option>
+                <option value="audi">A6</option>
+                <option value="audi">A7</option>
+                <option value="audi">A8</option>
+                <option value="audi">ALLROAD</option>
+                <option value="audi">CABRIOLET</option>
+                <option value="audi">COUPE</option>
+                <option value="audi">Q3</option>
+                <option value="audi">Q5</option>
+                <option value="audi">Q7</option>
+                <option value="audi">QUATTRO</option>
+                <option value="audi">R8</option>
+                <option value="audi">R8 SPYDER</option>
+                <option value="audi">SUPER 90</option>
+                <option value="audi">TT</option>
+                <option value="audi">V8</option>
+            </optgroup>
+            <optgroup label="bentley">
+                <option value="bentley">continental coupe</option>
+                <option value="bentley">continental flying spur</option>
+            </optgroup>
+            <optgroup label="bmw">
+                <option value="bmw">1</option>
+                <option value="bmw">2</option>
+                <option value="bmw">3</option>
+                <option value="bmw">4</option>
+                <option value="bmw">5</option>
+                <option value="bmw">6</option>
+                <option value="bmw">7</option>
+                <option value="bmw">8</option>
+                <option value="bmw">02</option>
+                <option value="bmw">1500 2000</option>
+                <option value="bmw">1600 gt coupe</option>
+                <option value="bmw">2000 3.2 coupe</option>
+                <option value="bmw">2500 3.3</option>
+                <option value="bmw">3 gran turismo</option>
+                <option value="bmw">3 touring</option>
+                <option value="bmw">4 coupe</option>
+                <option value="bmw">5 touring</option>
+                <option value="bmw">i3</option>
+                <option value="bmw">m1</option>
+                <option value="bmw">x1</option>
+                <option value="bmw">x3</option>
+                <option value="bmw">x4</option>
+                <option value="bmw">x5</option>
+                <option value="bmw">x6</option>
+                <option value="bmw">z1</option>
+                <option value="bmw">z3</option>
+                <option value="bmw">z3 coupe</option>
+                <option value="bmw">z4</option>
+                <option value="bmw">z4 coupe</option>
+                <option value="bmw">z8</option>
+            </optgroup>
+            </select>
+        </div>
+        <div class="Parca">
+            <h3>Parça</h3>
+            <select name="parca" id="parca">
+                <option value="0">Parça</option>
+                <optgroup label="Alfa Romeo">
+                    <option value="alfa">Abs ve fren sensörleri</option>
+                    <option value="alfa">El fren teli</option>
+                    <option value="alfa">Fren aksesuar seti</option>
+                    <option value="alfa">Fren Balatası</option>
+                    <option value="alfa">Fren Diski</option>
+                    <option value="alfa">Fren Hortumları</option>
+                    <option value="alfa">Fren Kaliperi</option>
+                    <option value="alfa">Fren Kampanası</option>
+                    <option value="alfa">Fren Limitörü</option>
+                    <option value="alfa">Kaliper Tamir Takım </option>
+                    <option value="alfa">Merkezler ve Aksesuarlar</option>
+                    <option value="alfa">Vakum Pompası</option>
+                    <option value="alfa">Westinghause</option>
+                </optgroup>
+                <optgroup label="Aston">
+                    <option value="aston">Şarj Sistemi</option>
+                    <option value="aston">Ateşleme Sistemi</option>
+                    <option value="aston">Kaporta Aksamı</option>
+                    <option value="aston">Egzoz Sistemi</option>
+                    <option value="aston">Aydınlatma Aksamı</option>
+                    <option value="aston">Fren Sistemi</option>
+                    <option value="aston">Isıtma ve Soğutma Sistemi</option>
+                    <option value="aston">Marş Sistemmi</option>
+                    <option value="aston">Motor ve Parçaları</option>
+                    <option value="aston">Filtre Sistemi </option>
+                </optgroup>
+            </select>
+        </div>
+        <a href="parca.html" onclick="$('.stok-Oneri').slideDown('normal'); " type="submit" class="btn btn-sm animated-button thar-three konum">Ara</a>
+    </div>
+    <div class="stok-Oneri" style="display: none;">
+        <div class="stok">
+            <h5>Stok Durumu</h5>
+            <div class="stokDiv">
+                <p>Bu üründen yalnızca &nbsp </p>
+            <div class="stokSayi">19</div>
+            <p>&nbsp adet mevcut.</p>
+            </div>
+        </div>
+        <div class="oneri">
+            <h5>Aradığınız parçanın uyduğu diğer arabalar</h5>
+            <ul>
+                <li>Opel Corsa</li>
+                <li>Astra Zastra</li>
+            </ul>
+        </div>
+        <a href="" class="stokOneriKapat" onclick="$('.stok-Oneri').slideUp('normal');">X</a>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <hr class="hr3 hidden-xs">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+          <!--orta kısım-->
+             <div class="col-md-9">
+    <div class="morePost row featuredPostContainer style2" style="float: right !important;">
+        <div class="">
+            <div class="row xsResponse">
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frendiski.jpeg"  class="img-responsive unveils" alt1="Kawasaki Z 300 Lityum Akü YTX9-BS (HJTX9-FP-I)">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">BMW Fren Diski</a></h4>
+                        </div>
+                <div class="product-price" style="margin-top:-5px;font-size:18px !important;font-weight:700;">
+                    <span class="price-sales"> 1646.63 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frenHortumu.jpeg" class="img-responsive unveils" alt1="Husqvarna WR 250 Vesrah Seramik Fren Balatası ">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Fren Hortumu </a></h4>
+                        </div>
+                <div class="product-price" style="margin-top:-5px;font-size:18px !important;font-weight:700;">
+                    <span class="price-sales"> 684.68 TL</span>  
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i>İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frenHortumu1.jpeg" class="img-responsive unveils" alt1="Suzuki AN 400 BURGMAN Disk Brenta Fren Balata">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">BMW E90 Fren Hortumu</a></h4>
+                        </div>
+                <div class="product-price" style="margin-top:-5px;font-size:18px !important;font-weight:700;">
+                    <span class="price-sales"> 197.15 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frenDiski2.jpeg"  class="img-responsive unveils" alt1="Suzuki RF 600 R Lityum Akü YTX9-BS (HJTX9-FP-I)">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">BMW B1200 Fren Diski</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 1646.63 TL</span>       
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frenHortumu2.jpeg" class="img-responsive unveils" alt1="Honda NC 700 D INTEGRA Kaporta Klipsi Beyaz (Adet Fiyatı)" >
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Honda NC 700 D INTEGRA Kaporta Klipsi Beyaz</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 5.74 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/kategoriBuji.png"  class="img-responsive unveils" alt1="Honda CBF 600 N Rk Zincir Gb 525 Xso 124L">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Honda CBF 600 N  Buji</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 2947.08 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/kategoriDebriyaj.png" class="img-responsive unveils" alt1="Piaggio X9 500 Marş Kavrama">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">TATA X9 500  Debriyaj</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 1625.64 TL</span>   
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/kategoriKayisZincir.png" class="img-responsive unveils" alt1="Suzuki GSX-R 1000 Rk O-Ring Zincir 530 Ero 114L " >
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">FİAT GSX-R 1000  Rk O-Ring Zincir 530 Ero 114L </a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 1579.20 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/frenDiski3.png"  class="img-responsive unveils" alt1="Honda CBR 1000 RR SP Disk Brenta Sinter Metal Fren Balata">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Honda CBR 1000 RR SP Ön Disk Brenta Sinter Metal Fren Balata</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 622.02 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#"> 
+                                <img src="img/frenDiski4.jpeg"  class="img-responsive unveils" alt1="Honda CRF 1000 L AFRICA TWIN Disk Brenta Fren Balata">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Honda CRF 1000 L AFRICA TWIN Arka  Disk Brenta Fren Balata</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 208.88 TL</span>
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/kategoriKayisZincir.png" class="img-responsive unveils" alt1="Ktm LC4 E Rk X-Ring Zincir 520 Xso 118L">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Dacia LC4 E Rk X-Ring Zincir 520 Xso 118L</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 2155.48 TL</span> 
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+                <div class="item col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xs-mini-6">
+                    <div class="product">
+                        <div class="image">
+                             <div class="quickview">
+                                <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/kategoriGovde.png" class="img-responsive unveils" alt1="Ford FZS 1000 FAZER Orijinal (OEM) Sağ Ayna">
+                            </a>
+                            <div class="promotion">
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4><a href="#">Ford FZS 1000 FAZER     Orijinal (OEM) Sağ Ayna</a></h4>
+                        </div>
+                <div class="product-price">
+                    <span class="price-sales"> 706.96 TL</span>  
+                        </div>
+                        <a href="#" class="btn button btn-danger btn-sm btn-cart cart first"><i class='bx bx-show'></i> İncele</a>
+                    </div>
+                </div>
+                <!--/.item-->
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!--/.container-->
+    </div>
+    </div>
+          <!-- ortakısım bitiş-->
+       </div>
+    </div>
+    <div class="container ">
+          <!-- Main component call to action -->
+          <div class="morePost row featuredPostContainer style2 globalPaddingTop ">
+              <div class="col-lg-12">
+                  <h3 class="boxes-title-1"><span>ÇOK SATANLAR</span></h3>
+              </div>
+              <div class="container">
+                  <div class="row xsResponse">
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product"> 
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                    <img src="img/frenKaliperi.jpeg"  class="img-responsive unveils" alt1="Kaporta Klipsi 6x10 Dubel (Adet Fiyatı)">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="/vida/kaporta-kl-ps-6x10-d-bel/">6x10 Fren Kaliperi</a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 6.35 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/frenDiski4.jpeg" class="img-responsive unveils" alt1="Kaporta Klipsi 6x13 Dubel (Adet Fiyatı)">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#">BMW Fren Diski </a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 8.39 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->  
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/kategoriFiltre.png" class="img-responsive unveils" alt1="Yağ Filtresi">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#">Honda 3340 Yağ Filtresi</a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 24.79 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="/vida/kaporta-kl-ps-beyaz/">
+                                           <img src="img/frenHortumu2.jpeg" class="img-responsive unveils" alt1="Kaporta Klipsi Beyaz (Adet Fiyatı)">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="/vida/kaporta-kl-ps-beyaz/">Fren Hortumu</a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 5.74 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/frenDiski4.jpeg" class="img-responsive unveils" alt1="Kaporta Klipsi 7x12 Dubel (Adet Fiyatı)">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="/vida/kaporta-kl-ps-7x12-d-bel/">Fren Diski</a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price" style="margin-top:-5px;font-size:18px !important;font-weight:700;">
+                          <span class="price-sales"> 8.39 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/kategoriBuji.png"  class="img-responsive unveils" alt1="DPR8EA-9 Ngk Buji">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#">DPR8EA-9 Ngk Buji</a></h4>
+                                  <p>Orijinal Japon Markasıdır. </p>
+                              </div>
+                      <div class="product-price" style="margin-top:-5px;font-size:18px !important;font-weight:700;">
+                          <span class="price-sales"> 87.47 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/havaFiltresi.jpeg" class="img-responsive unveils" alt1="hava Filtresi">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#">RIDEX Hava Filtresi</a></h4>
+                                  <p> </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 27.21 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/havaFiltresi2.png" class="img-responsive unveils" alt1="Buji Başı Siyah NGK SD05F 102 °  Uzun Tip">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#"> KRAFT Hava Filtresi</a></h4>
+                                  <p>Orijinal Japon Markasıdır. </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 91.04 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                          <div class="product">
+                              <div class="image">
+                                  <div class="quickview">
+                                      <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                  </div>
+                                  <a href="#">
+                                           <img src="img/yagFiltresi.jpeg" class="img-responsive unveils" alt1="Tel Sıktırma 7x9 Mm.">
+                                  </a>
+                                  <div class="promotion">
+                                  </div>
+                              </div>
+                              <div class="description">
+                                  <h4><a href="#">Yağ Filtresi</a></h4>
+                                  <p>2,0 mm teller için.alyan vidalı </p>
+                              </div>
+                      <div class="product-price">
+                          <span class="price-sales"> 14.87 TL</span>
+                      </div>
+                          </div>
+                      </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                        <div class="product">
+                            <div class="image">
+                                <div class="quickview">
+                                    <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                </div>
+                                <a href="#">
+                                         <img src="img/frenDiski2.jpeg" class="img-responsive unveils" alt1="Tel Sıktırma 7x9 Mm.">
+                                </a>
+                                <div class="promotion">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h4><a href="#">Fren Diski</a></h4>
+                                <p></p>
+                            </div>
+                    <div class="product-price">
+                        <span class="price-sales"> 14.87 TL</span>
+                    </div>
+                        </div>
+                    </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                        <div class="product">
+                            <div class="image">
+                                <div class="quickview">
+                                    <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                </div>
+                                <a href="#">
+                                         <img src="img/frenHortumu1.jpeg" class="img-responsive unveils" alt1="Tel Sıktırma 7x9 Mm.">
+                                </a>
+                                <div class="promotion">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h4><a href="#">Fren Hortumu</a></h4>
+                                <p></p>
+                            </div>
+                    <div class="product-price">
+                        <span class="price-sales"> 14.87 TL</span>
+                    </div>
+                        </div>
+                    </div>
+                      <!--/.item-->
+                      <div class="item col-lg-2 col-md-2 col-sm-4 col-xs-6 col-xs-mini-6 ">
+                        <div class="product">
+                            <div class="image">
+                                <div class="quickview">
+                                    <a class="btn btn-xs btn-quickview" href="#">Hızlı Görünüm </a>
+                                </div>
+                                <a href="#">
+                                         <img src="img/yagFiltresi2.jpeg" class="img-responsive unveils" alt1="Tel Sıktırma 7x9 Mm.">
+                                </a>
+                                <div class="promotion">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h4><a href="#"> RIDEX Yağ Filtresi</a></h4>
+                                <p></p>
+                            </div>
+                    <div class="product-price" >
+                        <span class="price-sales"> 14.87 TL</span>
+                    </div>
+                        </div>
+                    </div>
+                      <!--/.item-->
+                  </div>
+                  <!-- /.row -->
+              </div>
+              <!--/.container-->
+          </div>
+          <!--/.featuredPostContainer-->
+          <hr class="no-margin-top">
+          <div class="width100 section-block  text-center">
+              <div class="row featuredImgLook2">
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                      <div class="inner">
+                          <a href="#" class="img-link"><img alt="img" class="img-responsive unveilse" src="img/reklam.jpg"></a>
+                          <h3><span>İndirim</span> Büyük İndirim</h3>
+                          <a class="btn btn-link" href="#" title="Tel Tamir Kiti"> Devamını Gör <i class="fa fa-long-arrow-right"></i>
+                          </a></div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                      <div class="inner">
+                          <a href="#" class="img-link"><img alt="img" class="img-responsive unveilse" src="img/reklam2.jpeg"></a>
+                          <h3><span>İndirim</span> Fren Pedalları</h3>
+                          <a class="btn btn-link" href="#" title="Çelik Hidrolik Hortum"> Devamını Gör <i class="fa fa-long-arrow-right"></i>
+                          </a></div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                      <div class="inner">
+                          <a href="#" class="img-link"><img alt="img" class="img-responsive unveilse" src="img/reklam.jpg"></a>
+                          <h3><span>İndirim</span>Parçalar</h3>
+                          <a class="btn btn-link" href="#" title="OEM Parçalar"> Devamını Gör <i class="fa fa-long-arrow-right"></i>
+                          </a></div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                      <div class="inner">
+                          <a href="#" class="img-link"><img alt="img" class="img-responsive unveilse" src="img/reklam2.jpeg"></a>
+                          <h3><span>İndirim</span>Fren</h3>
+                          <a class="btn btn-link" href="#" title="Aynı Gün Kargo"> Devamını Gör <i class="fa fa-long-arrow-right"></i>
+                          </a></div>
+                  </div>
+              </div>
+              <!--/.row-->
+          </div>
+          </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/devexpress-diagram/2.1.65/dx-diagram.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/devexpress-gantt/4.1.33/dx-gantt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/devextreme-quill/1.5.18/dx-quill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/devextreme/22.1.6/js/dx.all.js"></script>
+</body>
+</html>
+<script>
+$(() => {
+  const searchBox = $('#searchBox').dxSelectBox({
+    dataSource: products,
+    displayExpr: 'Name',
+    valueExpr: 'ID',
+    searchEnabled: true,
+ 
+  }).dxSelectBox('instance');
+
+  const productsDataSource = new DevExpress.data.DataSource({
+    store: {
+      data: simpleProducts,
+      type: 'array',
+      key: 'ID',
+    },
+  });
+
+  $('#editBox').dxSelectBox({
+    dataSource: productsDataSource,
+    displayExpr: 'Name',
+    valueExpr: 'ID',
+    value: simpleProducts[0].ID,
+    acceptCustomValue: true,
+    onValueChanged(data) {
+      const $result = $('.current-value');
+
+      if (data.value !== null) {
+        const selectedItem = data.component.option('selectedItem');
+        $result.text(`${selectedItem.Name} (ID: ${selectedItem.ID})`);
+      } else {
+        $result.text('Not selected');
+      }
+    },
+    onCustomItemCreating(data) {
+      if (!data.text) {
+        data.customItem = null;
+        return;
+      }
+
+      const productIds = simpleProducts.map((item) => item.ID);
+      const incrementedId = Math.max.apply(null, productIds) + 1;
+      const newItem = {
+        Name: data.text,
+        ID: incrementedId,
+      };
+      data.customItem = productsDataSource.store().insert(newItem)
+        .then(() => productsDataSource.load())
+        .then(() => newItem)
+        .catch((error) => {
+          throw error;
+        });
+    },
+  });
+
+  $('#searchModeOption').dxSelectBox({
+    items: ['contains', 'startswith'],
+    value: 'contains',
+    onValueChanged(e) {
+      searchBox.option('searchMode', e.value);
+    },
+  });
+
+  $('#searchExprOption').dxSelectBox({
+    items: [{
+      name: "'Name'",
+      value: 'Name',
+    }, {
+      name: "['Name', 'Category']",
+      value: ['Name', 'Category'],
+    }],
+    displayExpr: 'name',
+    valueExpr: 'value',
+    value: 'Name',
+    onValueChanged(e) {
+      searchBox.option('searchExpr', e.value);
+    },
+  });
+
+  $('#searchTimeoutOption').dxNumberBox({
+    min: 0,
+    max: 5000,
+    value: 200,
+    showSpinButtons: true,
+    step: 100,
+    onValueChanged(e) {
+      searchBox.option('searchTimeout', e.value);
+    },
+  });
+
+  $('#minSearchLengthOption').dxNumberBox({
+    min: 0,
+    max: 5,
+    value: 0,
+    showSpinButtons: true,
+    onValueChanged(e) {
+      searchBox.option('minSearchLength', e.value);
+    },
+  });
+
+  $('#showDataBeforeSearchOption').dxCheckBox({
+    value: false,
+    text: 'Show Data Before Search',
+    onValueChanged(e) {
+      searchBox.option('showDataBeforeSearch', e.value);
+    },
+  });
+});
+    var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+$('.slick-slider').slick({
+    dots: true,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+$(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+
+$(document).ready(function() {
+var $marka = $( '#marka' ),
+		$model = $( '#model' ),
+    $options = $model.find( 'option' );
+    
+$marka.on( 'change', function() {
+	$model.html( $options.filter( '[value="' + this.value + '"]') );
+  $model.trigger( 'change' );
+} ).trigger( 'change' );
+
+var $model = $( '#model' ),
+		$parca = $( '#parca' ),
+    $parcaOptions = $parca.find( 'option' );
+    
+$model.on( 'change', function() {
+	$parca.html( $parcaOptions.filter( '[value="' + this.value + '"]' ) );
+  $parca.trigger( 'change' );
+} ).trigger( 'change' );
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+});
+const simpleProducts = [
+  { Name: 'Markalar', ID: 0 },  
+  { Name: 'Alfa Romeo', ID: 1  },
+  { Name: 'Aston Martin', ID: 2 },
+  { Name: 'Audi', ID: 3 },
+  { Name: 'Bentley', ID: 4 },
+  { Name: 'BMW', ID: 5 },
+  { Name: 'Cadillac', ID: 6 },
+  { Name: 'Chevrolet', ID: 7 },
+  { Name: 'Chrysler', ID: 8 },
+  { Name: 'Citroen', ID: 9 },
+  { Name: 'Dacia', ID: 10 },
+  { Name: 'Daewoo', ID: 11 },
+  { Name: 'Daihatsu', ID: 12 },
+  { Name: 'Dodge', ID: 13 },
+  { Name: 'Ferrari', ID: 14 },
+  { Name: 'Fiat', ID: 15 },
+  { Name: 'Ford', ID: 16 },
+  { Name: 'Honda', ID: 17 },
+  { Name: 'Hyundai', ID: 18 },
+  { Name: 'Isuzu', ID: 19 },
+  { Name: 'Iveco', ID: 20 },
+  { Name: 'Jaguar', ID: 21 },
+  { Name: 'jeep', ID: 22 },
+  { Name: 'Kia', ID: 23 },
+  { Name: 'Lada', ID: 24 },
+  { Name: 'Lamborghini', ID: 25 },
+  { Name: 'Lancia', ID: 26 },
+  { Name: 'Range Rover', ID: 27 },
+  { Name: 'Landrover', ID: 28 },
+  { Name: 'Maserati', ID: 29 },
+  { Name: 'Mazda', ID: 30 },
+  { Name: 'Mercedes Benz', ID: 31 },
+  { Name: 'Mini', ID: 32 },
+  { Name: 'Mitsubishi', ID: 33 },
+  { Name: 'Nissan', ID: 34 },
+  { Name: 'Opel', ID: 35 },
+  { Name: 'Peugeot', ID: 36 },
+  { Name: 'Porsche', ID: 37 },
+  { Name: 'Renault', ID: 38 },
+  { Name: 'Renault Trucks', ID: 39 },
+  { Name: 'Rolls Royce', ID: 40 },
+  { Name: 'Rover', ID: 41 },
+  { Name: 'Seat', ID: 42 },
+  { Name: 'Skoda', ID: 43 },
+  { Name: 'Smart', ID: 44 },
+  { Name: 'Subaru', ID: 45 },
+  { Name: 'Suzuki', ID: 46 },
+  { Name: 'Tata', ID: 47 },
+  { Name: 'Tofaş', ID: 48 },
+  { Name: 'Toyota', ID: 49 },
+  { Name: 'Volvo', ID: 50 },
+  { Name: 'VW', ID: 51 },
+];
+const products = [{
+  ID: 1,
+  Name: 'Alfa Romeo',
+  Price: 330,
+  Current_Inventory: 225,
+  Backorder: 0,
+  Manufacturing: 10,
+  Category: 'Marka',
+  ImageSrc: 'images/products/1.png',
+}, {
+  ID: 2,
+  Name: 'Aston Martin',
+  Price: 400,
+  Current_Inventory: 150,
+  Backorder: 0,
+  Manufacturing: 25,
+  Category: 'Marka',
+  ImageSrc: 'images/products/2.png',
+}, {
+  ID: 3,
+  Name: 'Audi',
+  Price: 2400,
+  Current_Inventory: 0,
+  Backorder: 0,
+  Manufacturing: 0,
+  Category: 'Marka',
+  ImageSrc: 'images/products/3.png',
+}, {
+  ID: 4,
+  Name: 'Bentley',
+  Price: 1600,
+  Current_Inventory: 77,
+  Backorder: 0,
+  Manufacturing: 55,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/4.png',
+}, {
+  ID: 5,
+  Name: 'BMW',
+  Price: 1450,
+  Current_Inventory: 445,
+  Backorder: 0,
+  Manufacturing: 0,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/5.png',
+}, {
+  ID: 6,
+  Name: 'Cadillac',
+  Price: 1350,
+  Current_Inventory: 345,
+  Backorder: 0,
+  Manufacturing: 5,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/6.png',
+}, {
+  ID: 7,
+  Name: 'Chevrolet',
+  Price: 1200,
+  Current_Inventory: 210,
+  Backorder: 0,
+  Manufacturing: 20,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/7.png',
+},{
+  ID: 8,
+  Name: 'Chrysler',
+  Price: 3500,
+  Current_Inventory: 0,
+  Backorder: 0,
+  Manufacturing: 0,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/8.png',
+}, {
+  ID: 9,
+  Name: 'Citroen',
+  Price: 4000,
+  Current_Inventory: 95,
+  Backorder: 0,
+  Manufacturing: 5,
+  Category: 'Televisions',
+  ImageSrc: 'images/products/9.png',
+}, {
+  ID: 10,
+  Name: 'Dacia',
+  Price: 175,
+  Current_Inventory: null,
+  Backorder: 425,
+  Manufacturing: 75,
+  Category: 'Monitors',
+  ImageSrc: 'images/products/10.png',
+}, {
+  ID: 11,
+  Name: 'Daewo',
+  Price: 170,
+  Current_Inventory: 210,
+  Backorder: 0,
+  Manufacturing: 60,
+  Category: 'Monitors',
+  ImageSrc: 'images/products/12.png',
+}, {
+  ID: 12,
+  Name: 'Daihatsu',
+  Price: 160,
+  Current_Inventory: 150,
+  Backorder: 0,
+  Manufacturing: 210,
+  Category: 'Monitors',
+  ImageSrc: 'images/products/13.png',
+}, {
+  ID: 13,
+  Name: 'Dodge',
+  Price: 550,
+  Current_Inventory: null,
+  Backorder: 55,
+  Manufacturing: 10,
+  Category: 'Projectors',
+  ImageSrc: 'images/products/14.png',
+}, {
+  ID: 14,
+  Name: 'Ferrari',
+  Price: 750,
+  Current_Inventory: 110,
+  Backorder: 0,
+  Manufacturing: 90,
+  Category: 'Projectors',
+  ImageSrc: 'images/products/15.png',
+}, {
+  ID: 15,
+  Name: 'Fiat',
+  Price: 1050,
+  Current_Inventory: 0,
+  Backorder: 75,
+  Manufacturing: 57,
+  Category: 'Projectors',
+  ImageSrc: 'images/products/16.png',
+}, {
+  ID: 16,
+  Name: 'Ford',
+  Price: 150,
+  Current_Inventory: 650,
+  Backorder: 0,
+  Manufacturing: 190,
+  Category: 'Automation',
+  ImageSrc: 'images/products/17.png',
+}, {
+  ID: 17,
+  Name: 'Honda',
+  Price: 180,
+  Current_Inventory: 310,
+  Backorder: 0,
+  Manufacturing: 0,
+  Category: 'Automation',
+  ImageSrc: 'images/products/18.png',
+}, {
+  ID: 18,
+  Name: 'Hyundai',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 19,
+  Name: 'Isuzu',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 20,
+  Name: 'Iveco',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 21,
+  Name: 'Jaguar',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 22,
+  Name: 'Jeep',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 23,
+  Name: 'Kia',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 24,
+  Name: 'Lada',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 25,
+  Name: 'Lamborghini',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Lancia',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 27,
+  Name: 'Range Rover',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 28,
+  Name: 'Landrover',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Maserati',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Mazda',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Mercedes Benz',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Mini',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Mitsubishi',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Nissan',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Opel',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Peugeot',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Porsche',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Renault',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Renault Trucks',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Rolls Royce',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Rover',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Seat',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Skoda',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Smart',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Subaru',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Suzuki',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Tata',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Tofaş',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Toyota',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'Volvo',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},{
+  ID: 26,
+  Name: 'VW',
+  Price: 200,
+  Current_Inventory: 0,
+  Backorder: 325,
+  Manufacturing: 225,
+  Category: 'Automation',
+  ImageSrc: 'images/products/19.png',
+},];
+</script>
